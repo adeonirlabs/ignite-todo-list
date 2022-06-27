@@ -1,6 +1,7 @@
 import styles from './Main.module.scss'
 import { Button } from '~/components/Button'
 import { Input } from '~/components/Input'
+import { TaskList } from '~/components/TaskList'
 
 export function Main() {
   return (
@@ -10,6 +11,10 @@ export function Main() {
           <Input placeholder="Adicione uma nova tarefa" />
           <Button />
         </form>
+
+        <div className={styles.list}>
+          <TaskList />
+        </div>
       </div>
     </main>
   )
