@@ -1,6 +1,6 @@
 import styles from './Logo.module.scss'
 
-export const Logo = () => {
+export function Logo() {
   return (
     <svg
       width="126"
