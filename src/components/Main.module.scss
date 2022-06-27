@@ -5,3 +5,14 @@
   padding: 1rem;
   text-align: center;
 }
+
+.container {
+  max-width: 46rem;
+  margin-inline: auto;
+  margin-top: calc(0px - 1rem - (3.375rem / 2));
+}
+
+.form {
+  display: flex;
+  gap: 0.5rem;
+}
