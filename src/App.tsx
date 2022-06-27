@@ -1,9 +1,12 @@
 import styles from './App.module.scss'
+import { Header } from '~/components/Header'
+import { Main } from '~/components/Main'
 
 export function App() {
   return (
     <div className={styles.app}>
-      <h1>Todo List</h1>
+      <Header />
+      <Main />
     </div>
   )
 }
