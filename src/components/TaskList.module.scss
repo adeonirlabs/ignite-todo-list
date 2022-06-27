@@ -1,0 +1,35 @@
+.list {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.created,
+.completed {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.created {
+  color: var(--blue)
+}
+
+.completed {
+  color: var(--purple)
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--gray-200);
+  background-color: var(--gray-400);
+  padding: 0.125rem 0.5rem;
+  border-radius: 1rem;
+}
