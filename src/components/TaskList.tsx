@@ -1,5 +1,6 @@
-import styles from './TaskList.module.scss'
 import { EmptyState } from '~/components/EmptyState'
+
+import styles from './TaskList.module.scss'
 
 export function TaskList() {
   return (
