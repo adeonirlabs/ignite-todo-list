@@ -1,3 +1,11 @@
+.wrapper {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .deleteButton {
   display: flex;
   align-items: center;
@@ -6,8 +14,6 @@
   color: var(--gray-300);
   border: 0;
   border-radius: 0.25rem;
-  width: 1.5rem;
-  height: 1.5rem;
   transition: all var(--transition-fast);
   cursor: pointer;
 

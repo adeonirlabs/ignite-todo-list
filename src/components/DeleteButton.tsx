@@ -9,8 +9,10 @@ type Props = {
 
 export function DeleteButton({ onClick }: Props) {
   return (
-    <button className={styles.deleteButton} onClick={onClick}>
-      <Trash size={16} />
-    </button>
+    <div className={styles.wrapper}>
+      <button className={styles.deleteButton} onClick={onClick}>
+        <Trash size={16} />
+      </button>
+    </div>
   )
 }
