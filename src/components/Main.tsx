@@ -1,4 +1,3 @@
-import styles from './Main.module.scss'
 import { Button } from '~/components/Button'
 import { Input } from '~/components/Input'
 import { TaskList } from '~/components/TaskList'
