@@ -5,20 +5,26 @@ import { DeleteButton } from '~/components/DeleteButton'
 
 import styles from './ListItem.module.scss'
 
-export type Props = {
+export type ItemProps = {
   id: string
   title: string
   isCompleted: boolean
 }
 
-export function ListItem({ title, isCompleted }: Props) {
+type Props = {
+  item: ItemProps
+  onCheck: (id: string) => void
+  onDelete: (id: string) => void
+}
+
+export function ListItem({ item, onCheck, onDelete }: Props) {
   return (
-    <div className={styles.listItem}>
-      <Checkbox />
-      <span className={cn(styles.title, isCompleted && styles.completed)}>
-        {title}
+    <div className={styles.item}>
+      <Checkbox checked={item.isCompleted} onChange={() => onCheck(item.id)} />
+      <span className={cn(styles.title, item.isCompleted && styles.completed)}>
+        {item.title}
       </span>
-      <DeleteButton onClick={() => console.log('clicou')} />
+      <DeleteButton onClick={() => onDelete(item.id)} />
     </div>
   )
 }
