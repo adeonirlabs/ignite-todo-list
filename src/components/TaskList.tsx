@@ -1,3 +1,4 @@
+import cn from 'classnames'
 import { useEffect, useMemo, useState } from 'react'
 
 import { EmptyState } from '~/components/EmptyState'
@@ -8,11 +9,12 @@ import styles from './TaskList.module.scss'
 
 type Props = {
   items: ItemProps[]
+  className?: string
   onComplete: (id: string) => void
   onDelete: (id: string) => void
 }
 
-export function TaskList({ items, onComplete, onDelete }: Props) {
+export function TaskList({ items, className, onComplete, onDelete }: Props) {
   const [list, setList] = useState(items)
 
   const isEmpty = useMemo(() => list.length === 0, [list])
@@ -31,7 +33,7 @@ export function TaskList({ items, onComplete, onDelete }: Props) {
   }, [items])
 
   return (
-    <section className={styles.list}>
+    <section className={cn(styles.list, className && className)}>
       <header>
         <div className={styles.created}>
           Tarefas criadas <span className={styles.counter}>{created}</span>
