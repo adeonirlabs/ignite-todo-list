@@ -4,9 +4,9 @@ import styles from './EmptyState.module.scss'
 
 export function EmptyState() {
   return (
-    <div className={styles.emtpyState}>
+    <div className={styles.emtpy}>
       <ClipboardPlus size={64} />
-      <b>Você ainda não tem tarefas cadastradas</b>
+      <strong>Você ainda não tem tarefas cadastradas</strong>
       <p>Crie tarefas e organize seus itens a fazer</p>
     </div>
   )
