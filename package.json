@@ -6,7 +6,9 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint": "eslint src --max-warnings=0",
+    "lint": "eslint src --max-warnings=0 && stylelint 'src/**/*.scss'",
+    "lintfix": "eslint src --max-warnings=0 --fix && stylelint 'src/**/*.scss' --fix",
+    "format": "prettier --write 'src/**/*.ts'",
     "typecheck": "tsc --pretty --noEmit"
   },
   "dependencies": {
@@ -33,6 +35,9 @@
     "eslint-plugin-react-refresh": "0.4.3",
     "eslint-plugin-simple-import-sort": "10.0.0",
     "prettier": "3.0.3",
+    "stylelint": "15.10.3",
+    "stylelint-config-recess-order": "4.3.0",
+    "stylelint-config-standard-scss": "11.0.0",
     "typescript": "5.2.2",
     "vite": "4.4.9",
     "vite-tsconfig-paths": "4.2.1"
