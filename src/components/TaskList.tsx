@@ -2,8 +2,8 @@ import cn from 'classnames'
 import { useEffect, useMemo, useState } from 'react'
 
 import { EmptyState } from '~/components/EmptyState'
-import { ListItem } from '~/components/ListItem'
 import type { ItemProps } from '~/components/ListItem'
+import { ListItem } from '~/components/ListItem'
 
 import styles from './TaskList.module.scss'
 

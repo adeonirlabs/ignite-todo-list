@@ -1,4 +1,4 @@
-import { ButtonHTMLAttributes } from 'react'
+import type { ButtonHTMLAttributes } from 'react'
 import { PlusCircle } from 'react-bootstrap-icons'
 
 import styles from './Button.module.scss'

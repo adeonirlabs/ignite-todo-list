@@ -1,4 +1,4 @@
-import { ButtonHTMLAttributes } from 'react'
+import type { ButtonHTMLAttributes } from 'react'
 import { Trash } from 'react-bootstrap-icons'
 
 import styles from './DeleteButton.module.scss'

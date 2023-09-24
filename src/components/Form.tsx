@@ -1,5 +1,6 @@
 import { nanoid } from 'nanoid'
-import { FormEvent, useState } from 'react'
+import type { FormEvent } from 'react'
+import { useState } from 'react'
 
 import { Button } from '~/components/Button'
 import { Input } from '~/components/Input'
