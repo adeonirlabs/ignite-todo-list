@@ -1,4 +1,4 @@
-> Ignite/2022
+> Ignite/2023
 
 # ToDo List
 
@@ -6,9 +6,9 @@
 
 ## Sobre o desafio
 
-Nesse desafio, você vai desenvolver uma aplicação de controle de tarefas no estilo **todo list**, que contém as seguintes funcionalidades:
+Nesse desafio, foi desenvolvida uma aplicação de controle de tarefas no estilo **todo list**, que contém as seguintes funcionalidades:
 
-- Adicionar uma nova tarefa
-- Marcar e desmarcar uma tarefa como concluída
-- Remover uma tarefa da listagem
-- Mostrar o progresso de conclusão das tarefas
+- adicionar uma nova tarefa
+- marcar e desmarcar uma tarefa como concluída
+- remover uma tarefa da listagem
+- mostrar o progresso de conclusão das tarefas
