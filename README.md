@@ -1,4 +1,4 @@
-> Ignite/2023 - Desafio #1
+> Ignite - Desafio #1
 
 # Todo List
 
@@ -6,21 +6,22 @@
 
 ## Sobre o desafio
 
-Nesse desafio, foi desenvolvida uma aplicação de controle de tarefas no estilo **todo list**, que contém as seguintes funcionalidades:
+O desafio consiste em construir uma aplicação de controle de tarefas no estilo **todo list**, que contém as seguintes funcionalidades:
 
-- adicionar uma nova tarefa
-- marcar e desmarcar uma tarefa como concluída
-- remover uma tarefa da listagem
-- mostrar o progresso de conclusão das tarefas
+- Adicionar uma nova tarefa
+- Listar todas as tarefas
+- Marcar e desmarcar uma tarefa como concluída
+- Remover uma tarefa da lista
+- Mostrar um contador de tarefas criadas e concluídas
 
 ## O que foi sugerido
 
 - React
 - TypeScript
 - Vite
-- Sass
-
-## O que foi acrescentado
+- CSS Modules (with Sass)
 - Eslint
 - Prettier
 - Stylelint
+
+> O desafio original não inclui Eslint, Prettier e Stylelint
