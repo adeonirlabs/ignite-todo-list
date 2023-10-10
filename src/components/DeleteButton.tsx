@@ -1,5 +1,5 @@
+import { Trash } from 'phosphor-react'
 import type { ButtonHTMLAttributes } from 'react'
-import { Trash } from 'react-bootstrap-icons'
 
 import styles from './DeleteButton.module.scss'
 
@@ -11,7 +11,7 @@ export function DeleteButton({ onClick }: Props) {
   return (
     <div className={styles.wrapper}>
       <button className={styles.deleteButton} onClick={onClick}>
-        <Trash size={16} />
+        <Trash size={24} />
       </button>
     </div>
   )

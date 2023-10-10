@@ -1,5 +1,5 @@
+import { PlusCircle } from 'phosphor-react'
 import type { ButtonHTMLAttributes } from 'react'
-import { PlusCircle } from 'react-bootstrap-icons'
 
 import styles from './Button.module.scss'
 
@@ -9,7 +9,7 @@ export function Button(props: Props) {
   return (
     <button className={styles.button} {...props}>
       Criar
-      <PlusCircle size={16} />
+      <PlusCircle size={24} />
     </button>
   )
 }
