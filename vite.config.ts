@@ -11,4 +11,12 @@ export default defineConfig({
       '~': '/src',
     },
   },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        api: 'modern-compiler',
+        additionalData: `@import "src/index.scss";`,
+      },
+    },
+  },
 })
